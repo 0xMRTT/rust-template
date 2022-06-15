@@ -4,8 +4,16 @@ name = "{{~#if d.package_name}}
     {{~^~}}
       {{~d.project_name}}
     {{~/if~}}"
-version = "{{d.version}}"
-edition = "{{d.rust_version}}"
+version = "{{~#if d.version}}
+      {{~d.version}}
+    {{~^~}}
+      0.1.0
+    {{~/if~}}"
+edition = "{{~#if d.rust_version}}
+      {{~d.rust_version}}
+    {{~^~}}
+    2021    
+{{~/if~}}"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
