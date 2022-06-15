@@ -2,7 +2,7 @@
 name = "{{~#if d.package_name}}
       {{~d.package_name}}
     {{~^~}}
-      d.project_name
+      {{~d.project_name}}
     {{~/if~}}"
 version = "{{d.version}}"
 edition = "{{d.rust_version}}"
