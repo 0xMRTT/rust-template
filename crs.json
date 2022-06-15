@@ -1,0 +1,8 @@
+{
+    "author": {
+        "type": "string",
+        "default": "0xMRTT",
+        "description": "Author of the project",
+        "placeholder": "0xMRTT"
+    }
+}
