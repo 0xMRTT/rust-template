@@ -1,5 +1,5 @@
 [package]
-name = "{{d.package_name}}"
+name = "{{d.package_name || "DEFAULt"}}"
 version = "{{d.version}}"
 edition = "{{d.rust_version}}"
 
