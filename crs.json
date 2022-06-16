@@ -36,5 +36,10 @@
             "Clippy",
             "Rustfmt"
         ]
+    },
+    "vscode": {
+        "type": "boolean",
+        "description": "Use VSCode",
+        "default": true
     }
 }
