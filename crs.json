@@ -3,6 +3,26 @@
         "type": "string",
         "default": "0xMRTT",
         "description": "Author of the project",
-        "placeholder": "0xMRTT"
+        "placeholder": "0xMRTT",
+        "question": "What is the author of the project?"
+    },
+    "license": {
+        "type": "select",
+        "description": "License of the project",
+        "placeholder": "MIT",
+        "options": [
+            "MIT",
+            "Apache-2.0",
+            "GNU GPLv3",
+            "GNU AGPLv3",
+            "GNU LGPLv3",
+            "Mozilla Public License 2.0",
+            "Boost Software License 1.0",
+            "The Unlicense",
+            "Eclipse Public License 1.0",
+            "ISC",
+            "Proprietary :(",
+            "Other"
+        ]
     }
 }
