@@ -68,5 +68,12 @@
         "description": "Version of the project",
         "placeholder": "0.1.0",
         "question": "What is the version of the project?"
+    },
+    "rust_version": {
+        "type": "string",
+        "default": "2021",
+        "description": "Edition of Rust to use",
+        "placeholder": "2021",
+        "question": "What is the edition of Rust to use?"
     }
 }
