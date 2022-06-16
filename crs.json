@@ -6,6 +6,13 @@
         "placeholder": "0xMRTT",
         "question": "What is the author of the project?"
     },
+    "email": {
+        "type": "string",
+        "default": "mail@example.com",
+        "description": "Email of the author",
+        "placeholder": "mail@example.com",
+        "question": "What is the email of the author?"
+    },
     "license": {
         "type": "select",
         "description": "License of the project",
