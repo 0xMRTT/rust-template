@@ -25,8 +25,19 @@
             "Other"
         ]
     },
-    "description": {
-        "type": "string"
+    "project_slug": {
+        "type": "string",
+        "default": "my-awesome-project",
+        "description": "Slug of the project",
+        "placeholder": "my-awesome-project",
+        "question": "What is the slug of the project?"
+    },
+    "project_name": {
+        "type": "string",
+        "default": "My Awesome Project",
+        "description": "Name of the project",
+        "placeholder": "My Awesome Project",
+        "question": "What is the name of the project?"
     },
     "linter": {
         "type": "multiselect",

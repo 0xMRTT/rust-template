@@ -1,9 +1,5 @@
 [package]
-name = "{{~#if d.package_name}}
-      {{~d.package_name}}
-    {{~^~}}
-      {{~d.project_name}}
-    {{~/if~}}"
+name = "{{project_slug}}"
 version = "{{~#if d.version}}
       {{~d.version}}
     {{~^~}}
