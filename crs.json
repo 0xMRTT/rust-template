@@ -48,9 +48,11 @@
             "Rustfmt"
         ]
     },
-    "vscode": {
-        "type": "boolean",
-        "description": "Use VSCode",
-        "default": "true"
+    "version": {
+        "type": "string",
+        "default": "0.1.0",
+        "description": "Version of the project",
+        "placeholder": "0.1.0",
+        "question": "What is the version of the project?"
     }
 }
