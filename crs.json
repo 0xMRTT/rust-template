@@ -40,6 +40,6 @@
     "vscode": {
         "type": "boolean",
         "description": "Use VSCode",
-        "default": true
+        "default": "true"
     }
 }
