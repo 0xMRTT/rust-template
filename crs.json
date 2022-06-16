@@ -24,5 +24,8 @@
             "Proprietary :(",
             "Other"
         ]
+    },
+    "description": {
+        "type": "string"
     }
 }
