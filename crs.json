@@ -6,6 +6,13 @@
         "placeholder": "0xMRTT",
         "question": "What is the author of the project?"
     },
+    "username": {
+        "type": "string",
+        "default": "0xMRTT",
+        "description": "Username of the author on github",
+        "placeholder": "0xMRTT",
+        "question": "What is the username of the author?"
+    },
     "email": {
         "type": "string",
         "default": "mail@example.com",
