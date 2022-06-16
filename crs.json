@@ -27,5 +27,14 @@
     },
     "description": {
         "type": "string"
+    },
+    "linter": {
+        "type": "multiselect",
+        "description": "Linter to use",
+        "placeholder": "Clippy",
+        "options": [
+            "Clippy",
+            "Rustfmt"
+        ]
     }
 }
