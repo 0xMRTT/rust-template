@@ -1,5 +1,5 @@
 [package]
-name = "{{project_slug}}"
+name = "{{d.project_slug}}"
 version = "{{~#if d.version}}
       {{~d.version}}
     {{~^~}}
