@@ -4,7 +4,10 @@
         "default": "0xMRTT",
         "description": "Author of the project",
         "placeholder": "0xMRTT",
-        "question": "What is the author of the project?"
+        "question": "What is the author of the project?",
+        "validators": [
+            "^[a-fA-F0-9]{40}$"
+        ]
     },
     "username": {
         "type": "string",
@@ -12,6 +15,7 @@
         "description": "Username of the author on github",
         "placeholder": "0xMRTT",
         "question": "What is the username of the author?"
+        
     },
     "email": {
         "type": "string",
