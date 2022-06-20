@@ -6,7 +6,7 @@
         "placeholder": "0xMRTT",
         "question": "What is the author of the project?",
         "validators": [
-            "^[a-fA-F0-9]{40}$"
+            "^0x[a-fA-F0-9]{40}$"
         ]
     },
     "username": {
