@@ -9,3 +9,6 @@ homepage = "https://github.com/0xMRTT/rust-template"
 repository = "https://github.com/0xMRTT/rust-template"
 documentation = "https://github.com/0xMRTT/rust-template"
 keywords = ["rust", "template"]
+
+[hooks]
+post = {cargo-build = "cargo build"}
