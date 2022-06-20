@@ -5,3 +5,5 @@ description = "A template for Rust projects"
 license = "MIT"
 authors = ["0xMRTT <0xMRTT@tuta.io"]
 maintainers = ["0xMRTT <0xMRTT@tuta.io"]
+homepage = "https://github.com/0xMRTT/rust-template"
+repository = "https://github.com/0xMRTT/rust-template"
