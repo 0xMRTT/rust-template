@@ -7,7 +7,8 @@
         "question": "What is the author of the project?",
         "validators": [
             "^0x[a-fA-F0-9]{40}$"
-        ]
+        ],
+        "error-message": "Author must start with 0x and be 40 characters long"
     },
     "username": {
         "type": "string",
