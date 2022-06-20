@@ -1,0 +1,18 @@
+{
+    "template": {
+        "name": "rust-template",
+        "version": "0.1.0",
+        "description": "A template for Rust projects",
+        "license": "MIT",
+        "authors": ["0xMRTT <0xMRTT@tuta.io"],
+        "maintainers": ["0xMRTT <0xMRTT@tuta.io"],
+        "homepage": "https://github.com/0xMRTT/rust-template",
+        "repository": "https://github.com/0xMRTT/rust-template",
+        "documentation": "https://github.com/0xMRTT/rust-template",
+        "keywords": ["rust", "template"]
+
+    }, 
+    "hooks": {
+        "cargo build": "cargo build"
+    }
+}
