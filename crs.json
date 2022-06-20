@@ -26,7 +26,11 @@
         "default": "mail@example.com",
         "description": "Email of the author",
         "placeholder": "mail@example.com",
-        "question": "What is the email of the author?"
+        "question": "What is the email of the author?",
+        "validators": [
+            "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"
+        ],
+        "error-message": "Email must be valid"
     },
     "license": {
         "type": "select",
