@@ -47,10 +47,7 @@
             "Other"
         ],
         "default": "MIT",
-        "question": "What is the license of the project?",
-        "validators": [
-            "^[a-zA-Z0-9]+([a-zA-Z0-9](_|-)[a-zA-Z0-9])*[a-zA-Z0-9]*$"
-        ]
+        "question": "What is the license of the project?"
     },
     "project_slug": {
         "type": "string",
