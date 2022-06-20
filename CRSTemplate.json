@@ -13,6 +13,8 @@
 
     }, 
     "hooks": {
-        "cargo build": "cargo build"
+        "post": {
+            "cargo build": "cargo build"
+        }
     }
 }
