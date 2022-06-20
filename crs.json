@@ -17,7 +17,7 @@
         "placeholder": "0xMRTT",
         "question": "What is the username of the author?",
         "validators": [
-            "^[a-zA-Z0-9]+([a-zA-Z0-9](_|-| )[a-zA-Z0-9])*[a-zA-Z0-9]*$"
+            "^[a-zA-Z0-9]+([a-zA-Z0-9](_|-)[a-zA-Z0-9])*[a-zA-Z0-9]*$"
         ]
         
     },
