@@ -52,7 +52,10 @@
         "default": "my-awesome-project",
         "description": "Slug of the project",
         "placeholder": "my-awesome-project",
-        "question": "What is the slug of the project?"
+        "question": "What is the slug of the project?",
+        "validators": [
+            "^[a-z]+([a-z](_|-)[a-z])*[a-z]*$"
+        ]
     },
     "project_name": {
         "type": "string",
