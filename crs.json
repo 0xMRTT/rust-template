@@ -15,7 +15,10 @@
         "default": "0xMRTT",
         "description": "Username of the author on github",
         "placeholder": "0xMRTT",
-        "question": "What is the username of the author?"
+        "question": "What is the username of the author?",
+        "validators": [
+            "^0x[a-fA-F0-9]{40}$"
+        ]
         
     },
     "email": {
