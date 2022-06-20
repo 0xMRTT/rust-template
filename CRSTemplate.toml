@@ -1,0 +1,5 @@
+[template]
+name = "rust-template"
+version = "0.1.0"
+description = "A template for Rust projects"
+authors = ["0xMRTT <0xMRTT@tuta.io"]
