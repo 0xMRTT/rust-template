@@ -14,7 +14,7 @@
     }, 
     "hooks": {
         "post": {
-            "cargo build": ["/bin/sh",  "-c" , "cargo build"],
+            "cargo build": ["/bin/sh",  "-c" , "cargo build"]
         }
     }
 }
