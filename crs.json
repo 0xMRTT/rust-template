@@ -6,7 +6,7 @@
         "placeholder": "0xMRTT",
         "question": "What is the author of the project?",
         "validators": [
-            "^0x[a-zA-Z0-9]$"
+            "^[a-zA-Z0-9]+([a-zA-Z0-9](_|-| )[a-zA-Z0-9])*[a-zA-Z0-9]*$"
         ],
         "error-message": "Author must start with 0x"
     },
@@ -17,7 +17,7 @@
         "placeholder": "0xMRTT",
         "question": "What is the username of the author?",
         "validators": [
-            "^0x[a-ZA-Z0-9]$"
+            "^[a-zA-Z0-9]+([a-zA-Z0-9](_|-| )[a-zA-Z0-9])*[a-zA-Z0-9]*$"
         ]
         
     },
