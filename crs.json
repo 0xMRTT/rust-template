@@ -73,6 +73,11 @@
         "options": [
             "Clippy",
             "Rustfmt"
+        ],
+        "default": "Clippy",
+        "question": "What linter do you want to use?",
+        "validators": [
+            "^[a-z]+([a-z](_|-)[a-z])*[a-z]*$"
         ]
     },
     "version": {
