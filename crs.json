@@ -6,9 +6,9 @@
         "placeholder": "0xMRTT",
         "question": "What is the author of the project?",
         "validators": [
-            "^0x[a-fA-F0-9]{40}$"
+            "^0x[a-fA-F0-9]$"
         ],
-        "error-message": "Author must start with 0x and be 40 characters long"
+        "error-message": "Author must start with 0x"
     },
     "username": {
         "type": "string",
@@ -17,7 +17,7 @@
         "placeholder": "0xMRTT",
         "question": "What is the username of the author?",
         "validators": [
-            "^0x[a-fA-F0-9]{40}$"
+            "^0x[a-fA-F0-9]$"
         ]
         
     },
