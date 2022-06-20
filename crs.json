@@ -60,7 +60,7 @@
         "placeholder": "my-awesome-project",
         "question": "What is the slug of the project?",
         "validators": [
-            "^[a-z]+([a-z](_|-)[a-z])*[a-z]*$"
+            "^[a-z_(]$"
         ]
     },
     "project_name": {
