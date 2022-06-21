@@ -55,7 +55,7 @@
     },
     "project_slug": {
         "type": "string",
-        "default": "{{project_name}}",
+        "default": "my-awesome-project",
         "description": "Slug of the project",
         "placeholder": "my-awesome-project",
         "question": "What is the slug of the project?",
