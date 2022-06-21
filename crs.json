@@ -65,7 +65,7 @@
     },
     "project_name": {
         "type": "string",
-        "default": "My Awesome Project",
+        "default": "{{project_slug}}",
         "description": "Name of the project",
         "placeholder": "My Awesome Project",
         "question": "What is the name of the project?"
